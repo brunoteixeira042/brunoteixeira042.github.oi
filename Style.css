@@ -171,10 +171,12 @@ footer{
     padding: 1.25rem 0;
     align-items: center;
     justify-items: center;
-    background-color: black
+    background-color: black;
+    
 
 }
 footer h3{
     text-align: center;
     color: #fff;
+    font-size: 1rem;
 }
