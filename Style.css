@@ -6,7 +6,9 @@
 body {
     font-family: "Poppins", sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .nav {
     background-color: #2C2C2C;
     height: 4rem;
@@ -179,4 +181,58 @@ footer h3{
     text-align: center;
     color: #fff;
     font-size: 1rem;
+}
+
+@media (max-width: 65.62rem){
+    .home h1{
+        font-size: 1.8rem;
+        align-items: center;
+    }
+    .home p {
+       font-size: 1rem; 
+    }
+    .home{
+        background-size: 80%;
+
+    }
+    .sobre {
+        flex-direction: column;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    .sobre div{
+        max-width: 80%;
+    }
+
+    .sobre div h2{
+        margin-top: 2rem;
+        font-size: 1.5rem;
+    }
+    .sobre img{
+        width: 80%;
+        margin-top: 2rem;
+    }
+    .projeto img{
+        width: 20.5%;
+
+    }
+    .projeto h2{
+        font-size: 1.5rem;
+    }
+    .projeto p {
+        font-size: 1rem;
+
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .footer p{
+        margin: 0;
+
+    }
+    footer h3{
+    font-size: 0.8rem;
+    }
 }
