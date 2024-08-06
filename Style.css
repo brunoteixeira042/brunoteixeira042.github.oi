@@ -236,3 +236,17 @@ footer h3{
     font-size: 0.8rem;
     }
 }
+.icons {
+    display: flex;
+    flex-wrap: initial;
+    justify-content: center;
+    background-color: #c44a4a;
+    height: 80px;
+
+
+}
+.icons img {
+    height: 15px;
+    object-fit: cover;
+    float: ;
+}

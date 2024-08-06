@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const textoTitulo = "Olá 👋 meu nome é Bruno!";
     const textoParagrafo = "Full Stack Developer";
     const intervalo = 150;
-
     function TextoEmMovimento(elemento, texto, intervalo, callback) {
         const charArray = texto.split('');
         const type = setInterval(() => {
@@ -18,9 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
             elemento.innerHTML += next;
         }, intervalo);
     }
-
     TextoEmMovimento(elementoTitulo, textoTitulo, intervalo, () => {
         // Após o título terminar, iniciar a animação do parágrafo
         TextoEmMovimento(elementoParagrafo, textoParagrafo, intervalo);
     });
-});
+}
+);
