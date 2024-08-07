@@ -110,9 +110,10 @@ button:hover {
 
 .sobre img {
     max-width: 15.5rem;
-    margin-left: 2rem;
-    border-radius: 0.5rem;
-    padding-right: 10%;
+    margin-right: 3.5rem;
+    border-radius: 1.5rem;
+    padding-right: 2rem;
+    padding-right: 0.5rem;
 }
 
 .sobre h2 {
@@ -235,18 +236,4 @@ footer h3{
     footer h3{
     font-size: 0.8rem;
     }
-}
-.icons {
-    display: flex;
-    flex-wrap: initial;
-    justify-content: center;
-    background-color: #c44a4a;
-    height: 80px;
-
-
-}
-.icons img {
-    height: 15px;
-    object-fit: cover;
-    float: ;
 }
